@@ -1,0 +1,31 @@
+.navbar-custom {
+  background-color: #46484B;
+
+  .navbar-brand{
+    color: #FFFFFF;
+  }
+
+  button {
+    background-color: #F62727;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    font-size: 17px;
+    border-radius: 4px;
+    border: 1px solid #e1e4e8;
+  }
+
+  button:disabled {
+    background-color: #F62727;
+  }
+
+  button:focus {
+    box-shadow: none;
+  }
+  @media (max-width: 768px) {
+    button {
+      font-size: 3vw;
+    }
+  }
+
+
+}
